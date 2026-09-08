@@ -1,0 +1,11 @@
+input[type="button"] {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px
+}
+
+input[type="button"]:hover {
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+}
