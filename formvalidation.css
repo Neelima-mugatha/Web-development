@@ -1,0 +1,66 @@
+input
+{
+ display: block;
+  height: 40px;
+  width: 400px;
+  border-radius: 5px;
+  text-align: left;
+  margin-right: 100px;
+}
+input:focus{
+    background-color: lightcyan;
+    color:black
+}
+#l1{
+    margin-top: 15px;
+}
+label{
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin-left: 25px;
+}
+button{
+  height: 50px;
+  width: 150px;
+  border-radius:8px;
+  margin-bottom: 30px;
+  background-color:blue;
+  color: white;
+}
+button:hover{
+    cursor: pointer;
+    background-color:aqua;
+    color:black;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* Responsive design */
+@media (max-width: 768px) {
+
+    form {
+        width: 90% !important;
+        height: auto !important;
+        margin: auto;
+    }
+
+    input {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    button {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+form{
+   background-color:lightcyan;
+}

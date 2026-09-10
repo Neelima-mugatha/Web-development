@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formvalidation.css">
+    <script src="formvalidation.js" defer></script>
+</head>
+<center>
+<body>
+        <h1>Form Validation</h1>
+        <form id="form1"name="validation" method="post" style=" border: 2px solid black; width:40%; height:50%;box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; border-radius:S5px;" >
+        <label id="l1">First Name:</label>
+        <input id="firstname" type="text" name="firstname" placeholder="Enter your name" required><br>
+        <label>Email:</label>
+        <input id="email"type="email" name="Email" placeholder="Enter your email" required><br>
+        <label>Password:</label>
+        <input id="pass" type="password" name="Password" placeholder="Enter your password" required><br>
+        <label>Confirm Password:</label>
+        <input id="cpd" type="password" name="ConfirmPassword" placeholder="Confirm your password" required><br>
+        <button type="submit">Submit</button>
+        <p id="error" aria-live="polite"></p>
+    </form>
+</body>
+</center>
+</html>
