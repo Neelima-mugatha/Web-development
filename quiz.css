@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #eafcff;
+}
+
+.quiz-container {
+  width: min(100%, 650px);
+  padding: 25px;
+  text-align: center;
+  background: #f9ffff;
+  border: 2px solid #222;
+  border-radius: 10px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  margin: 0;
+}
+
+.subtitle {
+  color: #666;
+}
+
+.quiz-card {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: left;
+  background: #b9e7ff;
+  border-radius: 8px;
+}
+
+.quiz-card h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+#progress {
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#answers {
+  display: grid;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.answer-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  cursor: pointer;
+  border: 1px solid #8ca8b5;
+  border-radius: 6px;
+  background: white;
+}
+
+.answer-option:hover {
+  background: #edfaff;
+}
+
+.answer-option input {
+  accent-color: #3939d8;
+}
+
+/* This keeps the button in the middle */
+#next-button {
+  display: block;
+  width: min(100%, 300px);
+  margin: 25px auto 0;
+  padding: 14px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background: #3939d8;
+  border: 0;
+  border-radius: 8px;
+}
+
+#next-button:hover {
+  background: #2525ac;
+}
+
+#result {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .quiz-container {
+    padding: 15px;
+  }
+
+  .quiz-card {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
